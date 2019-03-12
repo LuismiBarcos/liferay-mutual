@@ -7,6 +7,13 @@
 	</compatibility>
 	<theme id="liferay-mutual" name="liferay-mutual">
 		<template-extension>ftl</template-extension>
+		<settings>
+			<setting configurable="false" key="color-palette" value="blue,cyan,gray,gray-dark,green,indigo,orange,pink,purple,red,teal,white,yellow" />
+			<setting configurable="true" key="show-navigation-menu" type="checkbox" value="true" />
+		</settings>
+		<roles>
+			<role-name>User</role-name>
+		</roles>
 		<portlet-decorator id="barebone" name="Barebone">
 			<portlet-decorator-css-class>portlet-barebone</portlet-decorator-css-class>
 		</portlet-decorator>
