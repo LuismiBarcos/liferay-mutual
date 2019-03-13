@@ -6,11 +6,15 @@
 @import "components/splitter";
 @import "components/table";
 @import "components/widget";
+
 @import "portlet/portlet";
 @import "portlet/portlet_decorators";
 @import "portlet/portlet_hello_world";
+
 @import "partials/variables";
 @import "partials/navigation";
+@import "partials/footer";
+@import "partials/header_top";
 
 header {
 	.portlet, .field-wrapper, .form-group {
@@ -78,33 +82,5 @@ header {
 .btn-group + .info-panel {
 	@include md {
 		top: auto;
-	}
-}
-
-#header-top {
-	background-color: $brand-color;
-
-	.header-top-content {
-		justify-content: flex-end;
-		margin-right: 0em;
-		a {
-			color: $main-text-color;
-			padding-left: 0.3em;
-			text-decoration: none;
-		}
-	}
-	a::after {
-		content: '|'
-	}
-}
-
-#footer {
-	background-color: $brand-color;
-	color: #FFF;
-	margin-top: 1rem;
-
-	> .container {
-		padding-bottom: 3rem;
-		padding-top: 3rem;
 	}
 }

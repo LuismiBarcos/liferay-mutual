@@ -23,9 +23,9 @@
 <div class="pt-0" id="wrapper">
 	<#include "${full_templates_path}/header_top.ftl" />
 	<header class="container-fluid-1280" id="banner" role="banner">
-		<div class="row ml-5">
+		<div class="container">
 			<div class="navbar-header" id="heading">
-				<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+				<a class="${logo_css_class} lfr-mutual-logo" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="64" src="${site_logo}" width="64" />
 				</a>
 

@@ -1,5 +1,5 @@
 <header class="container-fluid" id="header-top" role="contentinfo">
-    <div class="row header-top-content">
+    <div class="container header-top-content">
         <a href="#">
             <@liferay.language key="Enlace 1" />
         </a>

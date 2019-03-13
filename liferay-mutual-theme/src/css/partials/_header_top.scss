@@ -1,0 +1,16 @@
+#header-top {
+	background-color: $brand-color;
+
+	.header-top-content {
+        display: flex;
+		justify-content: flex-end;
+		a {
+			color: $main-text-color;
+			padding-left: 0.3em;
+			text-decoration: none;
+        }
+        a::after {
+            content: '|'
+        }
+	}
+}
