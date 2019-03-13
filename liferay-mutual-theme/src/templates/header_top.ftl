@@ -1,4 +1,4 @@
-<header class="container-fluid-1280" id="header-top" role="contentinfo">
+<header class="container-fluid" id="header-top" role="contentinfo">
     <div class="row header-top-content">
         <a href="#">
             <@liferay.language key="Enlace 1" />

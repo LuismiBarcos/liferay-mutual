@@ -9,6 +9,8 @@
 @import "portlet/portlet";
 @import "portlet/portlet_decorators";
 @import "portlet/portlet_hello_world";
+@import "partials/variables";
+@import "partials/navigation";
 
 header {
 	.portlet, .field-wrapper, .form-group {
@@ -80,14 +82,15 @@ header {
 }
 
 #header-top {
-	background-color: $complementary-color;
-	margin-top: 1rem;
+	background-color: $brand-color;
 
 	.header-top-content {
 		justify-content: flex-end;
 		margin-right: 0em;
 		a {
+			color: $main-text-color;
 			padding-left: 0.3em;
+			text-decoration: none;
 		}
 	}
 	a::after {
@@ -96,7 +99,7 @@ header {
 }
 
 #footer {
-	background-color: $complementary-color;
+	background-color: $brand-color;
 	color: #FFF;
 	margin-top: 1rem;
 
