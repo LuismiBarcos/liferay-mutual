@@ -1,18 +1,10 @@
-@import "components/breadcrumb";
-@import "components/group-item";
-@import "components/info-panel";
-@import "components/navbars";
-@import "components/sidebar";
-@import "components/splitter";
-@import "components/table";
-@import "components/widget";
-
 @import "portlet/portlet";
 @import "portlet/portlet_decorators";
 @import "portlet/portlet_hello_world";
 
 @import "partials/variables";
 @import "partials/navigation";
+@import "partials/navbar";
 @import "partials/footer";
 @import "partials/header_top";
 
@@ -74,7 +66,7 @@ header {
 
 	.user-full-name {
 		@include media-query(null, $screen-xs-max) {
-			display: none;
+			// display: none;
 		}
 	}
 }
