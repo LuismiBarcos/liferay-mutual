@@ -3,11 +3,24 @@
 
 	.header-top-content {
         display: flex;
-		justify-content: flex-end;
+        justify-content: flex-end;
+
+        .user-avatar-image {
+            display: none;
+        }
+
+        .text-default {
+            font-weight: 400;
+        }
+
 		a {
 			color: $main-text-color;
 			padding-left: 0.3em;
-			text-decoration: none;
+            text-decoration: none;
+
+            svg {
+                display: none;
+            }
         }
         a::after {
             content: '|'
