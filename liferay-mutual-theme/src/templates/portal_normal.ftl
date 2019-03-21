@@ -23,8 +23,8 @@
 <div class="pt-0" id="wrapper">
 	<#include "${full_templates_path}/header_top.ftl" />
 	<header class="container-fluid-1280" id="banner" role="banner">
-		<div class="container lfr-mutual-navigation">
-			<div class="navbar-header" id="heading">
+		<div class="container liferay-mutual-header">
+			<#--  <div class="liferay-mutual-header" id="heading">  -->
 				<a class="${logo_css_class} lfr-mutual-logo" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="64" src="${site_logo}" width="64" />
 				</a>
@@ -34,7 +34,7 @@
 						${site_name}
 					</span>
 				</#if>
-			</div>
+			<#--  </div>  -->
 			<#if show_navigation_menu>
 				<#include "${full_templates_path}/navigation.ftl" />
 			</#if>

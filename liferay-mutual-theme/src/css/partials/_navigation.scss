@@ -1,6 +1,84 @@
+.liferay-mutual-header {
+    display: flex;
+
+}
 .lfr-mutual-navigation {
-    @include media-breakpoint-down(sm){
-        display: flex;
-        justify-content: space-between;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .lfr-mutual-navigation-search{
+        padding-left: 2rem;
+
+        .form-control {
+            width: 100%;
+        }
+        @include media-breakpoint-down(sm) {
+            padding-left: 0rem;
+        }
     }
+
+    @include media-breakpoint-down(sm) {
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .lfr-mutual-navigation-menu {
+        @include media-breakpoint-down(sm) {
+            background-color: #FFF;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            z-index: 1;
+
+            a {
+                color: $brand-color;
+            }
+
+            a:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+.search-toggle {
+    background-color: #FFF;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+
+    .form-group {
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .portlet-search {
+        .lfr-ddm-field-group-inline {
+            display: none;
+        }
+    }
+}
+
+.btn-search {
+	.icon-lens {
+		display: none;
+    }
+
+    .icon-times {
+        display: inline-block;
+    }
+
+	&.collapsed {
+		.icon-lens {
+			display: inline-block;
+		}
+
+		.icon-times {
+			display: none;
+		}
+	}
 }

@@ -2,7 +2,7 @@
     <div class="container header-top-content">
         <@liferay.user_personal_bar />
         <a class="text-default" href="#">
-            <@liferay.language key="Enlace 2" />
+            <@liferay.language key="Contacto" />
         </a>
     </div>
 </header>

@@ -1,4 +1,4 @@
-.lfr-mutual-navigation-menu{
+.lfr-mutual-navigation-menu {
     @include media-breakpoint-up(md) {
         display: flex;
         justify-content: end;
@@ -11,6 +11,16 @@
         a:hover {
             color: black;
         }
+    }
+}
+
+.navbar-light .navbar .navbar-collapse {
+    a {
+        color: $brand-color;
+    }
+
+    a:hover {
+        color: black;
     }
 }
 
