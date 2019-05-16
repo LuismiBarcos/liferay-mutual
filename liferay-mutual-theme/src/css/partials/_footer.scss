@@ -1,12 +1,24 @@
-#footer {
-	background-color: #222;
-	color: #FFF;
-    margin-top: 1rem;
-    a {
-        color: white;
-    }
-	> .container {
-		padding-bottom: 3rem;
-		padding-top: 3rem;
+footer {
+	background-color: $brand-color;
+
+	.row {
+	  min-height: 82px;
 	}
-}
+
+	.footer-site-name {
+		color: $main-text-color;
+	}
+
+	.footer-site-name:hover {
+		color: $complementary-color;
+		text-decoration: none;
+	}
+
+	.footer-icon {
+		color: $main-text-color;
+	}
+
+	.footer-icon:hover {
+		color: $complementary-color;
+	}
+  }

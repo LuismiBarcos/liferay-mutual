@@ -57,7 +57,9 @@
 		</#if>
 	</section>
 
-	<#include "${full_templates_path}/footer.ftl" />
+	<#if show_footer>
+		<#include "${full_templates_path}/footer.ftl" />
+	</#if>
 </div>
 
 <@liferay_util["include"] page=body_bottom_include />
